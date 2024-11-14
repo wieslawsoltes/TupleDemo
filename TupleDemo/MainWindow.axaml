@@ -1,0 +1,16 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:sys2="using:System"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="TupleDemo.MainWindow"
+        Title="TupleDemo">
+    <sys2:Tuple x:TypeArguments="sys:Int32, sys:String">
+        <x:Arguments>
+            <sys:Int32>42</sys:Int32>
+            <sys:String>Hello World</sys:String>
+        </x:Arguments>
+    </sys2:Tuple>
+</Window>
